@@ -1,0 +1,33 @@
+{
+"manifest_version": 2,
+
+"name": "안녕하세요. 이오프로텍(EOPROTEC) 입니다.",
+
+"version": "1.0",
+
+"icons": [
+    {
+        "src": "./images/favicon.png",
+        "sizes": "16x16",
+        "type": "image/webp"
+    },
+    {
+        "src": "./images/favicon.png",
+        "sizes": "48x48",
+        "type": "image/webp"
+    },
+    {
+        "src": "./images/favicon.png",
+        "sizes": "64x64",
+        "type": "image/webp"
+    },
+    {
+        "src": "./images/favicon.png",
+        "sizes": "128x128",
+        "type": "image/webp"
+    }
+],
+"start_url": "/index.html",
+"display": "browser",
+"orientation": "landscape"
+}

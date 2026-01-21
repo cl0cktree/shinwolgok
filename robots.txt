@@ -1,0 +1,6 @@
+(http://www.eoprotec.com/robots.txt)
+User-agent: *
+Allow:/
+Disallow: /sub/
+Disallow: /data/
+Sitemap: http://www.eoprotec.com/sitemap.xml

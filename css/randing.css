@@ -1,0 +1,131 @@
+.randing-wrap{position:relative;width:100%;}
+.randing-wrap .randing-background{width:100%;min-height:100vh;background:#fff;}
+.randing-wrap .randing-background .randing-top{display:block;width:100%;height:50px;line-height:50px;text-align:center;}
+.randing-wrap .randing-background .randing-top a{display:inline-block;width:271px;height:30px;padding-top:10px;}
+.randing-wrap .randing-background .randing-top a img{display:inline-block;width:100%;height:30px;}
+.randing-wrap .randing-container{display:block;position:absolute;box-sizing:border-box;width:100%;height:calc(100vh - 50px);margin:0;margin-top:50px;padding:0;top:0;left:0;transition:all 2s;overflow:hidden;opacity:0;z-index:-1;}
+.randing-wrap .randing-container.on{display:block;opacity:1;z-index:1;}
+
+.randing-wrap .randing-container .randing-animation{display:block;position:absolute;box-sizing:border-box;width:100%;height:calc(100vh - 50px);margin:0;padding:0;top:0;left:0;transition:all 2s;overflow:hidden;opacity:1;z-index:0;}
+
+.randing-wrap .randing-container .randing-animation .randing{display:block;position:absolute;box-sizing:border-box;width:100%;height:calc(100vh - 50px);background:url('../images/randing/background_01.jpg') no-repeat;background-position:center;background-size:cover;margin:0;padding:0;top:0;left:0;overflow:hidden;opacity:0;z-index:0;}
+
+.randing-wrap .randing-container .message-background{width:654px;height:calc(100vh - 50px);background:rgba(0,0,0,0.7);}
+.randing-wrap .randing-container .message-background .message-wrap{width:100%;height:317px;top:147px;left:0px;}
+.randing-wrap .randing-container .message-background .message-wrap>div{position:absolute;min-height:44px;line-height:44px;color:#f3f3f3;word-break:keep-all;text-align:left;}
+.randing-wrap .randing-container .message-background .message-wrap .catch-wrap{width:100%;height:317px;line-height:88px;/*background:rgba(23,28,97,0.5);*/text-align:center;color:#f3f3f3;}
+.randing-wrap .randing-container .message-background .message-wrap .catch-wrap img{float:none;}
+.randing-wrap .randing-container .message-background .message-wrap .catch-wrap span{position:absolute;display:block;box-sizing:border-box;width:100%;min-height:88px;line-height:95px;text-align:left;opacity:0;z-index:0;}
+.randing-wrap .randing-container .message-background .message-wrap .catch-wrap .catch-1{word-spacing:0px;}
+.randing-wrap .randing-container .message-background .message-wrap .catch-wrap .catch-2{word-spacing:0px;}
+.randing-wrap .randing-container .message-background .message-wrap .catch-wrap .catch-3{word-spacing:0px;}
+.randing-wrap .randing-container .message-background .message-wrap .catch-wrap .catch-4{word-spacing:0px;}
+
+.randing-wrap .randing-container .message-background .message-wrap .message{display:none;opacity:0;z-index:0;text-align:left;margin-top:198px;}
+.randing-wrap .randing-container .message-background .randing-nav{position:absolute;min-width:134px;max-width:320px;height:257px;bottom:13%;left:70px;}
+.randing-wrap .randing-container .message-background .nav_btn{display:block;color:#f3f3f3;font-size:27px;text-decoration:none;margin-top:82px;}
+.randing-wrap .randing-container .message-background .nav_btn_1{margin-top:0px;}
+.randing-wrap .randing-container .message-background .nav_btn_4{margin-top:44px;}
+
+/*-------------------------------------모바일---------------------------------------*/
+.randing-wrap .randing-container .message-background-mobile{width:100%;background:rgba(0,0,0,0.7);padding:60px 0;}
+.randing-wrap .randing-container .message-background-mobile .message-wrap{width:100%;height:auto;}
+.randing-wrap .randing-container .message-background-mobile .message-wrap>div{width:100%;min-height:44px;color:#f3f3f3;word-break:keep-all;text-align:center;}
+.randing-wrap .randing-container .message-background-mobile .message-wrap .catch-wrap{width:100%;min-height:60px;/*background:rgba(23,28,97,0.5);*/text-align:center;color:#f3f3f3;}
+.randing-wrap .randing-container .message-background-mobile .message-wrap .catch-wrap img{max-width:300px;width:50%;float:none;}
+.randing-wrap .randing-container .message-background-mobile .message-wrap .catch-wrap span{display:block;box-sizing:border-box;width:100%;min-height:60px;text-align:center;opacity:0;z-index:0;}
+.randing-wrap .randing-container .message-background-mobile .message-wrap .catch-wrap .catch-1{word-spacing:0px;}
+.randing-wrap .randing-container .message-background-mobile .message-wrap .catch-wrap .catch-2{word-spacing:0px;}
+.randing-wrap .randing-container .message-background-mobile .message-wrap .catch-wrap .catch-3{word-spacing:0px;}
+.randing-wrap .randing-container .message-background-mobile .message-wrap .catch-wrap .catch-4{word-spacing:0px;}
+
+.randing-wrap .randing-container .message-background-mobile .message-wrap .message{display:none;opacity:0;z-index:0;text-align:center;margin-top:0px;}
+.randing-wrap .randing-container .message-background-mobile .randing-nav{width:100%;margin:20px auto 0;overflow:hidden;}
+.randing-wrap .randing-container .message-background-mobile .nav_btn{display:block;width:33%;color:#f3f3f3;margin-top:20px;text-decoration:none;text-align:center;float:left;}
+
+@media all and (max-width:320px){
+	.randing-wrap .randing-container .message-background{display:none;}
+	.randing-wrap .randing-container .message-background .catch-wrap{font-size:35px;font-weight:700;}
+	.randing-wrap .randing-container .message-background .message{width:320px;font-size:16px;line-height:27px;}
+	.randing-wrap .randing-container .message-background-mobile .randing-nav{max-width:240px;}
+	.randing-wrap .randing-container .message-background-mobile .nav_btn{font-size:17px;}
+
+	.randing-wrap .randing-container .message-background-mobile{display:block;}
+	.randing-wrap .randing-container .message-background-mobile .catch-wrap{font-size:39px;font-weight:700;}
+	.randing-wrap .randing-container .message-background-mobile .message-wrap .catch-wrap span{max-width:220px;margin:0 auto;}
+	.randing-wrap .randing-container .message-background-mobile .message{width:320px;font-size:12px;line-height:27px;}
+	.randing-wrap .randing-container .message-background-mobile .nav_btn{font-size:17px;}
+}
+@media all and (min-width:321px) and (max-width:480px){
+	.randing-wrap .randing-container .message-background{display:none;}
+	.randing-wrap .randing-container .message-background .catch-wrap{font-size:35px;font-weight:700;}
+	.randing-wrap .randing-container .message-background .message{width:360px;font-size:16px;line-height:27px;}
+	.randing-wrap .randing-container .message-background-mobile .randing-nav{max-width:250px;}
+	.randing-wrap .randing-container .message-background-mobile .nav_btn{font-size:17px;}
+
+	.randing-wrap .randing-container .message-background-mobile{display:block;}
+	.randing-wrap .randing-container .message-background-mobile .catch-wrap{font-size:39px;font-weight:700;}
+	.randing-wrap .randing-container .message-background-mobile .message-wrap .catch-wrap span{max-width:220px;margin:0 auto;}
+	.randing-wrap .randing-container .message-background-mobile .message{width:360px;font-size:12px;line-height:27px;}
+}
+@media all and (min-width:481px) and (max-width:640px){
+	.randing-wrap .randing-container .message-background{display:none;}
+	.randing-wrap .randing-container .message-background .catch-wrap{font-size:42px;font-weight:700;}
+	.randing-wrap .randing-container .message-background .message{width:400px;font-size:18px;line-height:30px;}
+	.randing-wrap .randing-container .message-background-mobile .randing-nav{max-width:280px;}
+	.randing-wrap .randing-container .message-background-mobile .nav_btn{font-size:17px;}
+
+	.randing-wrap .randing-container .message-background-mobile{display:block;}
+	.randing-wrap .randing-container .message-background-mobile .catch-wrap{font-size:42px;font-weight:700;}
+	.randing-wrap .randing-container .message-background-mobile .message{width:400px;font-size:15px;line-height:30px;}
+	.randing-wrap .randing-container .message-background-mobile .nav_btn{font-size:20px;}
+}
+@media all and (min-width:641px) and (max-width:720px){
+	.randing-wrap .randing-container .message-background{display:none;}
+	.randing-wrap .randing-container .message-background .catch-wrap{font-size:42px;font-weight:700;}
+	.randing-wrap .randing-container .message-background .message{width:400px;font-size:18px;line-height:30px;}
+
+	.randing-wrap .randing-container .message-background-mobile{display:block;}
+	.randing-wrap .randing-container .message-background-mobile .catch-wrap{font-size:42px;font-weight:700;}
+	.randing-wrap .randing-container .message-background-mobile .message{width:400px;font-size:15px;line-height:30px;}
+	.randing-wrap .randing-container .message-background-mobile .randing-nav{max-width:300px;}
+	.randing-wrap .randing-container .message-background-mobile .nav_btn{font-size:20px;}
+}
+@media all and (min-width:721px) and (max-width:1080px){
+	.randing-wrap .randing-container .message-background{display:none;}
+	.randing-wrap .randing-container .message-background .catch-wrap{font-size:42px;font-weight:900;}
+	.randing-wrap .randing-container .message-background .message{width:450px;font-size:25px;line-height:30px;}
+
+	.randing-wrap .randing-container .message-background-mobile{display:block;}
+	.randing-wrap .randing-container .message-background-mobile .catch-wrap{font-size:42px;font-weight:900;}
+	.randing-wrap .randing-container .message-background-mobile .message{width:450px;font-size:15px;line-height:30px;}
+	.randing-wrap .randing-container .message-background-mobile .randing-nav{max-width:350px;}
+	.randing-wrap .randing-container .message-background-mobile .nav_btn{font-size:20px;}
+}
+@media all and (min-width:1081px) and (max-width:1280px){
+	.randing-wrap .randing-container .message-background{display:block;}
+	.randing-wrap .randing-container .message-background .catch-wrap{font-size:88px;font-weight:900;}
+	.randing-wrap .randing-container .message-background .message{width:500px;font-size:25px;line-height:34px;}
+
+	.randing-wrap .randing-container .message-background-mobile{display:none;}
+	.randing-wrap .randing-container .message-background-mobile .catch-wrap{font-size:88px;font-weight:900;}
+	.randing-wrap .randing-container .message-background-mobile .message{width:500px;font-size:25px;line-height:34px;}
+}
+@media all and (min-width:1281px) and (max-width:1500px){
+	.randing-wrap .randing-container .message-background{display:block;}
+	.randing-wrap .randing-container .message-background .catch-wrap{font-size:88px;font-weight:900;}
+	.randing-wrap .randing-container .message-background .message{width:500px;font-size:25px;line-height:34px;}
+
+	.randing-wrap .randing-container .message-background-mobile{display:none;}
+	.randing-wrap .randing-container .message-background-mobile .catch-wrap{font-size:88px;font-weight:900;}
+	.randing-wrap .randing-container .message-background-mobile .message{width:500px;font-size:25px;line-height:34px;}
+}
+@media all and (min-width:1501px){
+	.randing-wrap .randing-container .message-background{display:block;}
+	.randing-wrap .randing-container .message-background .catch-wrap{font-size:88px;font-weight:900;}
+	.randing-wrap .randing-container .message-background .message{width:500px;font-size:25px;line-height:34px;}
+
+	.randing-wrap .randing-container .message-background-mobile{display:none;}
+	.randing-wrap .randing-container .message-background-mobile .catch-wrap{font-size:88px;font-weight:900;}
+	.randing-wrap .randing-container .message-background-mobile .message{width:500px;font-size:25px;line-height:34px;}
+}
