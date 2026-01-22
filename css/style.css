@@ -173,6 +173,7 @@ textarea{box-sizing:border-box;}
 .section .top_btn.on{ opacity:1; z-index:4;}
 
 .section .root_daum_roughmap_landing .cont{display:none;}
+.section .root_daum_roughmap .wrap_controllers .wrap_btn_roadview{float:left; left:40px;}
 
 .footer{width:100%;min-height:200px;background:dimgray;}
 .footer .terms{display:none;padding:20px 30px;word-break:keep-all;}
