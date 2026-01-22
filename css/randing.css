@@ -1,9 +1,9 @@
 .randing-wrap{position:relative;width:100%;}
 .randing-wrap .randing-background{width:100%;min-height:100vh;background:#fff;}
-.randing-wrap .randing-background .randing-top{display:block;width:100%;height:50px;line-height:50px;text-align:center;}
-.randing-wrap .randing-background .randing-top a{display:inline-block;width:271px;height:30px;padding-top:10px;}
-.randing-wrap .randing-background .randing-top a img{display:inline-block;width:100%;height:30px;}
-.randing-wrap .randing-container{display:block;position:absolute;box-sizing:border-box;width:100%;height:calc(100vh - 50px);margin:0;margin-top:50px;padding:0;top:0;left:0;transition:all 2s;overflow:hidden;opacity:0;z-index:-1;}
+.randing-wrap .randing-background .randing-top{display:block;width:100%;height:70px;line-height:70px;text-align:center;}
+.randing-wrap .randing-background .randing-top a{display:inline-block;box-sizing: border-box;width:250px;height:70px;padding-top:10px;}
+.randing-wrap .randing-background .randing-top a img{display:inline-block;width:100%;height:50px;}
+.randing-wrap .randing-container{display:block;position:absolute;box-sizing:border-box;width:100%;height:calc(100vh - 50px);margin:0;margin-top:70px;padding:0;top:0;left:0;transition:all 2s;overflow:hidden;opacity:0;z-index:-1;}
 .randing-wrap .randing-container.on{display:block;opacity:1;z-index:1;}
 
 .randing-wrap .randing-container .randing-animation{display:block;position:absolute;box-sizing:border-box;width:100%;height:calc(100vh - 50px);margin:0;padding:0;top:0;left:0;transition:all 2s;overflow:hidden;opacity:1;z-index:0;}
@@ -11,9 +11,9 @@
 .randing-wrap .randing-container .randing-animation .randing{display:block;position:absolute;box-sizing:border-box;width:100%;height:calc(100vh - 50px);background:url('../images/randing/background_01.jpg') no-repeat;background-position:center;background-size:cover;margin:0;padding:0;top:0;left:0;overflow:hidden;opacity:0;z-index:0;}
 
 .randing-wrap .randing-container .message-background{width:654px;height:calc(100vh - 50px);background:rgba(0,0,0,0.7);}
-.randing-wrap .randing-container .message-background .message-wrap{width:100%;height:317px;top:147px;left:0px;}
+.randing-wrap .randing-container .message-background .message-wrap{width:100%;height:200px;top:147px;left:0px;}
 .randing-wrap .randing-container .message-background .message-wrap>div{position:absolute;min-height:44px;line-height:44px;color:#f3f3f3;word-break:keep-all;text-align:left;}
-.randing-wrap .randing-container .message-background .message-wrap .catch-wrap{width:100%;height:317px;line-height:88px;/*background:rgba(23,28,97,0.5);*/text-align:center;color:#f3f3f3;}
+.randing-wrap .randing-container .message-background .message-wrap .catch-wrap{width:100%;height:200px;line-height:88px;/*background:rgba(23,28,97,0.5);*/text-align:center;color:#f3f3f3;}
 .randing-wrap .randing-container .message-background .message-wrap .catch-wrap img{float:none;}
 .randing-wrap .randing-container .message-background .message-wrap .catch-wrap span{position:absolute;display:block;box-sizing:border-box;width:100%;min-height:88px;line-height:95px;text-align:left;opacity:0;z-index:0;}
 .randing-wrap .randing-container .message-background .message-wrap .catch-wrap .catch-1{word-spacing:0px;}
@@ -32,7 +32,7 @@
 .randing-wrap .randing-container .message-background-mobile .message-wrap{width:100%;height:auto;}
 .randing-wrap .randing-container .message-background-mobile .message-wrap>div{width:100%;min-height:44px;color:#f3f3f3;word-break:keep-all;text-align:center;}
 .randing-wrap .randing-container .message-background-mobile .message-wrap .catch-wrap{width:100%;min-height:60px;/*background:rgba(23,28,97,0.5);*/text-align:center;color:#f3f3f3;}
-.randing-wrap .randing-container .message-background-mobile .message-wrap .catch-wrap img{max-width:300px;width:50%;float:none;}
+.randing-wrap .randing-container .message-background-mobile .message-wrap .catch-wrap img{max-width:300px;width:20%;min-width:100px;float:none;}
 .randing-wrap .randing-container .message-background-mobile .message-wrap .catch-wrap span{display:block;box-sizing:border-box;width:100%;min-height:60px;text-align:center;opacity:0;z-index:0;}
 .randing-wrap .randing-container .message-background-mobile .message-wrap .catch-wrap .catch-1{word-spacing:0px;}
 .randing-wrap .randing-container .message-background-mobile .message-wrap .catch-wrap .catch-2{word-spacing:0px;}

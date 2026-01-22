@@ -307,7 +307,7 @@ $(function(){
 				$name_header_con.stop().animate({'height':'90px'},50,function(){
 					$('.gnb-wrap').find('.depth_wrap').stop().fadeOut(200).animate({'margin-top':'0','opacity':'0'});
 				});
-			}else{
+			}else{				
 				$name_header.find('.mobile-menu').stop().animate({'right':'-100%'},function(){
 					$('.background-filter').stop().fadeOut('300').removeClass('on');
 					// $('.gnb-modile').find('.depth_wrap').stop()
@@ -316,6 +316,7 @@ $(function(){
 					$('.background-filter').stop().fadeOut('300').removeClass('on');
 					// $('.gnb-modile').find('.depth_wrap').stop()
 				});
+				$('body').css({'overflow':'auto'});
 			};
 		}else{
 			if ($('.header, .header-con').width()>1063){
@@ -331,6 +332,7 @@ $(function(){
 				$name_header.find('.mobile-menu').stop().animate({'right':'0'});
 				$name_header_con.find('.mobile-menu').stop().animate({'right':'0'});
 				$('.background-filter').stop().fadeIn('300').addClass('on');
+				$('body').css({'overflow':'hidden'});
 			}
 		
 		}
@@ -380,7 +382,7 @@ $(function(){
 		};
 		// $language.removeClass('on');
 		// $('.gnb-wrap, .gnb-modile').find('a').removeClass('on');
-		// $('.depth_wrap').children('li').children('a').removeClass();
+		// $('.depth_wrap').children('li').children('a').removeClass();		
 		$('.gnb-wrap, .gnb-modile').find('.gnb-'+gnb_index).children('a').addClass('on');
 		if (gnb_index=='4'){
 			window.location.href = './consulting.html';
@@ -486,11 +488,20 @@ $(function(){
 		$('.background-filter').css({'z-index':'-1'});
 		$('.background-filter').html('');
 	});
+	$name_footer.on('click','.tel-num',function(){
+		if (navigator.userAgent.match(/android/i)) {
+			location.href='tel:02-941-8909','_self';
+		} else if (navigator.userAgent.match(/(iphone)|(ipod)|(ipad)/i)){
+			location.href='tel:02-941-8909','_self';
+		}else{
+			alert('모바일에서만 가능합니다.');
+		}
+	});
 	$name_footer.on('click','.phon-num',function(){
 		if (navigator.userAgent.match(/android/i)) {
-			location.href='tel:02-6952-8892','_self';
+			location.href='tel:010-9155-3410','_self';
 		} else if (navigator.userAgent.match(/(iphone)|(ipod)|(ipad)/i)){
-			location.href='tel:02-6952-8892','_self';
+			location.href='tel:010-9155-3410','_self';
 		}else{
 			alert('모바일에서만 가능합니다.');
 		}
