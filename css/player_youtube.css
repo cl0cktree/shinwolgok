@@ -1,0 +1,29 @@
+.background-filter .video_play{width:86%;min-width:320px;max-width:1920px;background:#fff;cursor:default;}
+
+.background-filter .video_play h1{text-align:center;height:60px;line-height:60px;background:rgba(255,255,255,1);cursor:default;}
+.background-filter .video_play iframe{display:block;position:relative;width:100%;min-width:320px;max-width:1920px;height:100vh;max-height:calc(100vh - 60px);background:#fff;float:none;cursor:pointer;}
+
+@media all and (max-width:320px){
+    .background-filter .video_play{margin:20% auto 20px;}
+}
+@media all and (min-width:321px) and (max-width:480px){
+    .background-filter .video_play{margin:15% auto 20px;}
+}
+@media all and (min-width:481px) and (max-width:640px){
+    .background-filter .video_play{margin:15% auto 20px;}
+}
+@media all and (min-width:641px) and (max-width:720px){
+    .background-filter .video_play{margin:10% auto 20px;}
+}
+@media all and (min-width:721px) and (max-width:1080px){
+    .background-filter .video_play{margin:10% auto 20px;}
+}
+@media all and (min-width:1081px) and (max-width:1280px){
+    .background-filter .video_play{margin:40px auto;}
+}
+@media all and (min-width:1281px) and (max-width:1500px){
+    .background-filter .video_play{margin:20px auto;}
+}
+@media all and (min-width:1501px){
+    .background-filter .video_play{margin:0 auto;min-height:100vh;}
+}
