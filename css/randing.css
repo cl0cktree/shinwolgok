@@ -11,9 +11,9 @@
 .randing-wrap .randing-container .randing-animation .randing{display:block;position:absolute;box-sizing:border-box;width:100%;height:calc(100vh - 50px);background:url('../images/randing/background_01.jpg') no-repeat;background-position:center;background-size:cover;margin:0;padding:0;top:0;left:0;overflow:hidden;opacity:0;z-index:0;}
 
 .randing-wrap .randing-container .message-background{width:654px;height:calc(100vh - 50px);background:rgba(0,0,0,0.7);}
-.randing-wrap .randing-container .message-background .message-wrap{width:100%;height:200px;top:147px;left:0px;}
+.randing-wrap .randing-container .message-background .message-wrap{width:480px;height:480px;top:12%;left:50px;}
 .randing-wrap .randing-container .message-background .message-wrap>div{position:absolute;min-height:44px;line-height:44px;color:#f3f3f3;word-break:keep-all;text-align:left;}
-.randing-wrap .randing-container .message-background .message-wrap .catch-wrap{width:100%;height:200px;line-height:88px;/*background:rgba(23,28,97,0.5);*/text-align:center;color:#f3f3f3;}
+.randing-wrap .randing-container .message-background .message-wrap .catch-wrap{width:100%;height:480px;line-height:88px;/*background:rgba(23,28,97,0.5);*/text-align:left;color:#f3f3f3;}
 .randing-wrap .randing-container .message-background .message-wrap .catch-wrap img{float:none;}
 .randing-wrap .randing-container .message-background .message-wrap .catch-wrap span{position:absolute;display:block;box-sizing:border-box;width:100%;min-height:88px;line-height:95px;text-align:left;opacity:0;z-index:0;}
 .randing-wrap .randing-container .message-background .message-wrap .catch-wrap .catch-1{word-spacing:0px;}
@@ -22,8 +22,8 @@
 .randing-wrap .randing-container .message-background .message-wrap .catch-wrap .catch-4{word-spacing:0px;}
 
 .randing-wrap .randing-container .message-background .message-wrap .message{display:none;opacity:0;z-index:0;text-align:left;margin-top:198px;}
-.randing-wrap .randing-container .message-background .randing-nav{position:absolute;min-width:134px;max-width:320px;height:257px;bottom:13%;left:70px;}
-.randing-wrap .randing-container .message-background .nav_btn{display:block;color:#f3f3f3;font-size:27px;text-decoration:none;margin-top:82px;}
+.randing-wrap .randing-container .message-background .randing-nav{position:absolute;min-width:134px;max-width:320px;height:238px;bottom:12%;left:50px;}
+.randing-wrap .randing-container .message-background .nav_btn{display:block;color:#f3f3f3;font-size:27px;text-decoration:none;margin-top:72px;}
 .randing-wrap .randing-container .message-background .nav_btn_1{margin-top:0px;}
 .randing-wrap .randing-container .message-background .nav_btn_4{margin-top:44px;}
 
