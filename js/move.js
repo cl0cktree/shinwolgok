@@ -367,9 +367,9 @@ $(function(){
 		var url_add;
 		if($('.header, .header-con').width()>1080){
 			if (art_index==1){
-				topminus = 0;
+				topminus = 60;
 			}else{
-				topminus = 110;
+				topminus = 60;
 			}
 		}else{
 			if (art_index==1){
