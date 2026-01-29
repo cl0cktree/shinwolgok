@@ -8,7 +8,12 @@
 
 .randing-wrap .randing-container .randing-animation{display:block;position:absolute;box-sizing:border-box;width:100%;height:calc(100vh - 50px);margin:0;padding:0;top:0;left:0;transition:all 2s;overflow:hidden;opacity:1;z-index:0;}
 
-.randing-wrap .randing-container .randing-animation .randing{display:block;position:absolute;box-sizing:border-box;width:100%;height:calc(100vh - 50px);background:url('../images/randing/background_01.jpg') no-repeat;background-position:center;background-size:cover;margin:0;padding:0;top:0;left:0;overflow:hidden;opacity:0;z-index:0;}
+/* .randing-wrap .randing-container .randing-animation .randing{display:block;position:absolute;box-sizing:border-box;width:100%;height:calc(100vh - 50px);background:url('../images/randing/background_01.jpg') no-repeat;background-position:center;background-size:cover;margin:0;padding:0;top:0;left:0;overflow:hidden;opacity:0;z-index:0;} */
+.randing-wrap .randing-container .randing-animation .randing{display:block;position:absolute;box-sizing:border-box;width:100%;height:calc(100vh - 50px);margin:0;padding:0;top:0;left:0;overflow:hidden;opacity:0;z-index:0;}
+.randing-wrap .randing-container .randing-animation .randing_1{background:url('../images/randing/background_01.jpg') no-repeat;background-position:center;background-size:cover;}
+.randing-wrap .randing-container .randing-animation .randing_2{background:url('../images/randing/background_02.jpg') no-repeat;background-position:center;background-size:cover;}
+.randing-wrap .randing-container .randing-animation .randing_3{background:url('../images/randing/background_03.jpg') no-repeat;background-position:center;background-size:cover;}
+.randing-wrap .randing-container .randing-animation .randing_4{background:url('../images/randing/background_04.jpg') no-repeat;background-position:center;background-size:cover;}
 
 .randing-wrap .randing-container .message-background{width:654px;height:calc(100vh - 50px);background:rgba(0,0,0,0.7);}
 .randing-wrap .randing-container .message-background .message-wrap{width:480px;height:480px;top:12%;left:50px;}
